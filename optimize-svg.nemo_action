@@ -1,0 +1,9 @@
+[Nemo Action]
+
+Active=true
+Name=Optimize SVG
+Comment=Optimize an SVG with svgcleaner
+Exec=svgcleaner --multipass %F %F
+Icon-Name=gtk-execute
+Selection=s
+Extensions=any
